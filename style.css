@@ -1,0 +1,59 @@
+body{
+background-color: #fffdfd;
+font-family: "Arial",sans-serif;
+margin: 0;
+padding: 0;
+
+};
+
+h1{
+    font-size: 2rem;
+    text-align: center;
+    padding-top: 100px;
+}
+
+p{
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 0.5rem;
+}
+
+.botoes{
+    display: flex;
+    justify-content: center;
+}
+
+botao{
+    border: none;
+    font-size: 3rem;
+    margin: 0 0.05rem;
+    padding: 0.5rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+}
+
+button:hover{
+    opacity: 0.7;
+}
+
+#pedra{
+    background-color: #ff0000;
+}
+
+#papel{
+    background-color: #2196f3;
+}
+
+#tesoura{
+    background-color: #2196f3;
+}
+
+#pontos-do-usuário{
+    color: #2196f3;
+}
+
+#pontos-da-máquina{
+     color: #ff0000;
+}
